@@ -1,0 +1,173 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+ max-height:100dvh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.swiper-pagination-bullet-active {
+ 
+  background: white !important;
+  
+}
+/* Add this CSS to your existing styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal button {
+  margin-right: 10px;
+}
+
+/* Custome 22-08-2023 */
+.bg_redcolor {
+background-color:  #DF0A02;
+}
+.txt_redcolor{
+  color: #DF0A02;
+}
+.nav-link{
+  color: #000 !important;
+}
+.nav-item:hover{
+  background: #DF0A02;
+  border-radius: 10px;
+}
+.nav-link:hover{
+  color: #fff !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff !important;
+  background-color: #DF0A02 !important;
+}
+.btn-primary
+{
+  background-color: #DF0A02;
+  border-color: #DF0A02;
+}
+.btn-primary:hover
+{
+  background-color: #DF0A02;
+  border-color: #DF0A02;
+
+}
+.loaderImage{
+  z-index: 9999;
+  display:block;
+}
+.loader-container {
+  z-index: 9999;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align:center;
+}
+.nav-sidebar .nav-link p {
+  FONT-WEIGHT: 130;
+  display: inline;
+ 
+  margin-left: 10px !important;
+}
+/* .main-sidebar{
+  width: 189px !important;
+} */
+/* table scroll */
+#collapse1{
+  overflow-y:scroll;
+  max-height:325px;
+}
+.tableFixHead th { position: sticky; top: 0;
+background: white; }
+/* table scroll */
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+.main-sidebar {
+  background: #fff;
+}
+.upload-img-box img{
+  width: 100px;
+  height: 130px;
+}
+/* pagination */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pagination a {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #DF0A02;
+  color: #DF0A02;
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: #fff !important;
+  background: #DF0A02;
+}
+
+.pagination__link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+.active{
+  background-color:red;
+  }
